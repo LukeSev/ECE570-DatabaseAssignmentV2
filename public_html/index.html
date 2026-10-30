@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> 📚 My Favorite Class — EE/ECE XXX</title>
+  <style>
+    /* ============================================
+       CSS VARIABLES - Customize colors here!
+       ============================================ */
+    :root {
+      --primary-color: #CCCCFF;      /* Main theme color */
+      --primary-light: #EDEDFF;      /* Light accent color */
+      --primary-border: #00000;     /* Border for tags */
+      --primary-text: #00000;       /* Text for tags */
+      --background: #f7f7f8;         /* Page background */
+      --card-background: #00000;       /* Card background */
+      --text-color: #222;            /* Main text color */
+      --border-color: #CFCFCF;       /* Card borders */
+      --max-width: 780px;            /* Maximum content width */
+    }
+
+    /* ============================================
+       BASE STYLES
+       ============================================ */
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.5;
+      margin: 0;
+      background: var(--background);
+      color: var(--text-color);
+    }
+
+    /* ============================================
+       HEADER SECTION
+       ============================================ */
+    header {
+      background: var(--primary-color);
+      color: #00000;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.8rem;
+    }
+
+    header p {
+      margin: 0;
+      color: #00000;
+      opacity: 0.95;
+    }
+
+    /* ============================================
+       MAIN CONTENT AREA
+       ============================================ */
+    main {
+      max-width: var(--max-width);
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    /* ============================================
+       CARD COMPONENTS
+       ============================================ */
+    .card {
+      background: var(--card-background);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
+
+    /* ============================================
+       HEADINGS
+       ============================================ */
+    h2 {
+      font-size: 1.3rem;
+      margin: 0 0 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      margin: 1rem 0 0.5rem;
+      color: #00000;
+      background: var(--primary-color);
+      padding: 0.4rem 0.6rem;
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    /* ============================================
+       LISTS AND LINKS
+       ============================================ */
+    ul {
+      margin: 0.25rem 0 0.75rem 1.2rem;
+    }
+
+    a {
+      color: #0000FF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ============================================
+       TAGS AND NOTES
+       ============================================ */
+    .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      padding: 0.2rem 0.5rem;
+      background: var(--primary-light);
+      border: 1px solid var(--primary-border);
+      color: var(--primary-text);
+      border-radius: 999px;
+    }
+
+    .note {
+      font-size: 0.95rem;
+      color: #374151;
+    }
+
+    /* ============================================
+       FOOTER
+       ============================================ */
+    footer {
+      max-width: var(--max-width);
+      margin: 2rem auto;
+      padding: 0 1rem 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <!-- ============================================
+       HEADER - Update course name and description
+       ============================================ -->
+  <header>
+    <h1>Internet of Things - EE/ECE 570</h1>
+    <p>This page will serve as the main hub for all my completed IoT assignments and resources for the rest of the semester.</p>
+  </header>
+
+  <main>
+    <!-- ============================================
+         ASSIGNMENT 1
+         ============================================ -->
+    <section class="card">
+      <span class="tag">Assignment 1</span>
+      <h3>Assignment 1: GitHub MySQL Code, Report</h3>
+      <ul>
+        <li>GitHub — MySQL scripts: <a href="https://github.com/LukeSev/ECE570-DatabaseAssignmentV2" target="_blank" rel="noopener">Link</a></li>
+        <li>Assignment report (PDF): <a href="https://drive.google.com/file/d/1uh_pssbkOzi_whpE39QZNuJAOVez2Dsk/view?usp=drive_link" target="_blank" rel="noopener">Link</a></li>
+      </ul>
+      <p class="note">Goal: Create a basic database for registering sensors and storing collected data.</p>
+    </section>
+
+    
+        
+    <!-- TEMPLATE FOR FUTURE ASSIGNMENTS -->
+    
+    <!-- ============================================
+         ASSIGNMENT X
+         ============================================
+    <section class="card">
+      <span class="tag">Assignment 2</span>
+      <h3>Building a Simple Dashboard</h3>
+      <ul>
+        <li>GitHub — ESP code: <a href="#" target="_blank" rel="noopener">Add link</a></li>
+        <li>GitHub — MySQL scripts: <a href="#" target="_blank" rel="noopener">Add link</a></li>
+        <li>Assignment report (PDF or page): <a href="#" target="_blank" rel="noopener">Add link</a></li>
+      </ul>
+      <p class="note">Goal: create a basic dashboard that reads from your database and presents key sensor metrics.</p>
+    </section>
+    -->
+
+    <!-- ============================================
+         ADD MORE ASSIGNMENTS BELOW
+         Copy the structure above and update:
+         - Tag number
+         - Assignment title
+         - Links
+         - Goal description
+         ============================================ -->
+    
+  </main>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer>
+    <p>💡 <strong>Note:</strong> This page is a work in progress, and will be regularly updated as more assignments are completed.</p>
+  </footer>
+</body>
+</html>
